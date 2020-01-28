@@ -12,4 +12,5 @@ function animate() {
   ctx.drawImage(imgTag, x, y);                       // draw image at current position
   x += 4;
   if (x > canvas.width) requestAnimationFrame(animate)        // loop Never loop forever other wise u get expelled
+  
 }
