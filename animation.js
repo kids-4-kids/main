@@ -1,3 +1,4 @@
+window.onload = init;
 var image = document.getElementById("img")
 var bodyId = document.getElementById("body")
 var canvas = document.getElementById("canvas");
