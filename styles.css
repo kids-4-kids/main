@@ -1,4 +1,4 @@
-body {
+html {
     position: relative;
     overflow: hidden;
     width: 100px;
@@ -6,7 +6,7 @@ body {
     border: 1px solid black;
 }
 
-body {
+html {
     position: absolute;
     left: -100px;
     width: 100px;
@@ -15,7 +15,7 @@ body {
     transition: 1s;
 }
 
-body:hover  {
+html:hover  {
     transition: 1s;
     left: 0;
 }
