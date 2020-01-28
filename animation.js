@@ -9,7 +9,7 @@ function init() {
   var y = canvas.height;
 
   bodyId.onload = animate;
-
+  console.log("success");
   function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
     ctx.drawImage(imgTag, x, y);                       // draw image at current position
