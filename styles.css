@@ -2,4 +2,15 @@ canvas {
   visibility: visible;
 }
 h1 {
-  
+  font-family: 'Raleway', sans-serif;
+  font-size: 15pt;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 8pt;
+}
+body{
+  background-image: url("https://kids-4-kids.github.io/main/Kids4KidsPics/kids4kids.png");
+  background-position: left;
+  background-size: 50%
+}
