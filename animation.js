@@ -15,7 +15,7 @@ function init() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
     ctx.drawImage(imgTag, x, y);                       // draw image at current position
     x -= 4;
-    if (x < canvas.width) requestAnimationFrame(animate)        // loop Never loop forever other wise u get expelled
+    if (x > canvas.width) requestAnimationFrame(animate)        // loop Never loop forever other wise u get expelled
 
   }
 }
