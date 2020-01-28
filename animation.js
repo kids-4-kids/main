@@ -8,14 +8,18 @@ function init() {
   var x = canvas.width;
   var y = 0;
 
-  image.onload = animate;
+  function go() {
+    setInterval(100, animate);
+  }
   console.log("success");
   function animate() {
+    if (x < canvas.width) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
+      ctx.drawImage(image, x, y);                       // draw image at current position
+      x += 5;
+      go();
+    }
     
-    ctx.clearRect(0, 0, canvas.width, canvas.height);  // clear canvas
-    ctx.drawImage(image, x, y);                       // draw image at current position
-    x -= 4;
-    if (x > canvas.width) requestAnimationFrame(animate)        // loop Never loop forever other wise u get expelled
 
   }
 }
