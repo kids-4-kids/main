@@ -8,7 +8,7 @@ function init() {
   var x = canvas.width;
   var y = 0;
 
-  bodyId.onload = animate;
+  image.onload = animate;
   console.log("success");
   function animate() {
     
