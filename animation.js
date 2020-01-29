@@ -7,6 +7,7 @@ function init() {
   var ctx = canvas.getContext("2d");
   var x = canvas.width;
   var y = 0;
+  image.onload = go();
 
   function go() {
     setInterval(100, animate);
