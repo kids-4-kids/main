@@ -9,6 +9,7 @@
     position: absolute;
     left: -100px;
     height: 50%;
+    float:right;
     width:50%;
     background: blue;
     transition: 1s;
@@ -16,5 +17,5 @@
 
 .wrapper:hover #slide {
     transition: 1s;
-    left: 0;
+    right: 0;
 }
