@@ -16,6 +16,7 @@ p {
 
 */
 img {
-  float:right;
-  background-size: 50%;
+  float:left;
+  width: 50;
+  height:50;
 }
