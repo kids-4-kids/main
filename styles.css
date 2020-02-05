@@ -1,6 +1,4 @@
-canvas {
-  visibility: visible;
-}
+
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 15pt;
@@ -14,4 +12,10 @@ p {
   background-position: left;
   background-size: 50%;
   background-repeat: none;
-} */
+} 
+
+*/
+img {
+  float:right;
+  background-size: 50%;
+}
