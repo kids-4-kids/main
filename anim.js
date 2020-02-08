@@ -1,13 +1,16 @@
-window.onload = body.onload = Init();
+window.onload = body.onload = setup();
 
-function Init() {
+function setup() {
 
   var can = document.getElementById("canvas");
   var image = document.getElementById("img");
   var ctx = can.getContext("2d");
-
+  image.onload = run();
+}
+function run() {
   var xpos = -image.width;
   move();
+  
   function move() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
