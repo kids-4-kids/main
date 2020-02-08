@@ -3,7 +3,7 @@ var image = document.getElementById("img");
 var ctx = can.getContext("2d");
 
 var xpos = -image.width;
-
+window.onload = move();
 function move() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
