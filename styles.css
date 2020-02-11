@@ -44,6 +44,6 @@ li a:active {
   font-style: italic;
 }
 #studentsAtAssembly:hover {
-  transition:1s;
-  transform: scale(1.5) perspective(10px);
+  transition:1s ease;
+  transform: scale(1) perspective(10px);
 }
