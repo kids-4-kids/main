@@ -55,3 +55,7 @@ li a:active {
 #welcome {
   font-size: 48pt; 
 }
+#logo {
+  width: 240px;
+  height: 240px;
+}
