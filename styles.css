@@ -17,3 +17,6 @@ ul {
   background-color: blue;
   width:100%;
 }
+li {
+  float: left;
+}
