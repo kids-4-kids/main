@@ -9,3 +9,11 @@ p {
 }
 /* menubar */
 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005a96;
+  width:100%;
+}
