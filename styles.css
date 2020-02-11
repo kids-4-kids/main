@@ -33,7 +33,7 @@ li a {
 li a:hover {
   background-color: #395c70;
   color: white;
-  transform: scale(1.5) perspective(10px)
+  transform: scale(1.5) perspective(100px)
 }
 li a:active {
   transform: translate(0px, 5px);
