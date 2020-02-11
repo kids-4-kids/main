@@ -51,3 +51,6 @@ li a:active {
   transition:1s ease;
   transform: scale(1.1) perspective(10px);
 }
+#welcome {
+  font-size: 60pt; 
+}
