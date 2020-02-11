@@ -28,6 +28,7 @@ li a {
   text-decoration: none;
   font-size: 15pt;
   font-family: 'Raleway', sans-serif;
+  transition: all 1s ease;
 }
 li a:hover {
   background-color: #395c70;
