@@ -12,13 +12,13 @@ function dummy() {
 }
 // now dummyvar will not be recognized ouside the function
 
-window.onload = body.onload;
+window.onload = body.onload = setup();
 //you placed the can, ctx and image variables inside the setup function
 var can = document.getElementById("canvas");
 var image = document.getElementById("img");
 var ctx = can.getContext("2d");
 ////////     :D  XD XD XD XD XD
-body.onload = setup();
+
 function setup() {
 
   
