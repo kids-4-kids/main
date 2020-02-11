@@ -31,5 +31,5 @@ li a {
 }
 li a:hover {
   background-color: #395c70;
-  opacity: 0.3;
+  color: white;
 }
