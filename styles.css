@@ -46,6 +46,12 @@ li a:active {
 #studentsAtAssembly {
  transform: scale(1); 
  transition: 1s ease;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 #studentsAtAssembly:hover {
   transition:1s ease;
