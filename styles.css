@@ -45,6 +45,7 @@ li a:active {
 }
 #studentsAtAssembly {
  transform: scale(1); 
+ transition: 1s ease;
 }
 #studentsAtAssembly:hover {
   transition:1s ease;
