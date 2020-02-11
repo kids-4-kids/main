@@ -31,7 +31,9 @@ li a {
   transition: all 1s;
 }
 li a.kids {
-  float:right;
+  position:absolute;
+  top:0;
+  right:0;
 }
 li a:hover {
   background-color: #395c70;
