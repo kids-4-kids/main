@@ -1,5 +1,6 @@
-window.onload = body.onload = setup();
+window.onload = body.onload;
 
+body.onload = setup();
 function setup() {
 
   var can = document.getElementById("canvas");
