@@ -29,3 +29,7 @@ li a {
   font-size: 15pt;
   font-family: 'Raleway', sans-serif;
 }
+li a:hover {
+  background-color: #395c70;
+  opacity: 0.3;
+}
