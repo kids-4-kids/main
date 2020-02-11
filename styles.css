@@ -28,7 +28,7 @@ li a {
   text-decoration: none;
   font-size: 15pt;
   font-family: 'Raleway', sans-serif;
-  transition: all 1s;
+  transition: all 0.5;
 }
 li a:hover {
   background-color: #395c70;
@@ -45,5 +45,5 @@ li a:active {
 }
 #studentsAtAssembly:hover {
   transition:1s ease;
-  transform: scale(1.2) perspective(10px);
+  transform: scale(1.1) perspective(10px);
 }
