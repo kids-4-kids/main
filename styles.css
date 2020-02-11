@@ -30,6 +30,9 @@ li a {
   font-family: 'Raleway', sans-serif;
   transition: all 1s;
 }
+li a.kids {
+  float:right;
+}
 li a:hover {
   background-color: #395c70;
   color: white;
