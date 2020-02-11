@@ -22,9 +22,10 @@ li {
 }
 li a {
   display: block;
-  color: blue;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 15pt;
+  font: 'Raleway', sans-serif;
 }
