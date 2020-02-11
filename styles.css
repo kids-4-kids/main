@@ -39,3 +39,7 @@ li a:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
 }
+#tip {
+  font-family: 'Avenir W01', sans-serif;
+  font-style: italic;
+}
