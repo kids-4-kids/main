@@ -29,7 +29,8 @@ function run() {
   xpos = -image.width;
   move();
   
-  function move() {
+  
+function move() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       if (image.right < screen.width/2) {
