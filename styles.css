@@ -29,7 +29,8 @@ li a {
   font-size: 15pt;
   font-family: 'Raleway', sans-serif;
   transition: all 1s;
-  background-size: 300px 100px;
+  height:30px;
+  padding:20px;
 }
 
 li a:hover {
