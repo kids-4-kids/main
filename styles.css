@@ -59,4 +59,10 @@ li a:active {
 #logo {
   width: 500px;
   height: 500px;
+  transition: 1s ease;
+  transform: scale(1);
+}
+#logo:hover {
+  transform: scale(1.1) perspective(10px);
+  transition: 1s ease;
 }
