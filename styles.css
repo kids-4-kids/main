@@ -33,7 +33,7 @@ li a {
   font-family: 'Raleway', sans-serif;
   transition: all 1s;
   height:30px;
-  padding:20px;
+  padding:14px 16px;
 }
 
 li a:hover {
