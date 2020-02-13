@@ -31,7 +31,7 @@ ul.menubar li a {
 ul.menubar li a:hover {
   background-color: #707371;
   transform: scale() perspective(10px);
-  transition: .5s ease all;
+  transition: .8s ease;
   font-size: 15pt;
   }
 ul.menubar li.right {
@@ -50,9 +50,8 @@ ul.menubar li.right {
   }
 
 ul.menubar li a:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  transition: .5s ease all
+  transform: scale(1);
+  transition: 1s;
 }
 #tip {
   font-family: 'Raleway', sans-serif;
