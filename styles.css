@@ -9,38 +9,40 @@ p {
 }
 /* menubar */
 
-ul {
-  top: 0;
+ul.menubar {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #34a8eb;
-  width: 100%;
-  list-style-type: none;
+  background-color: #333;
   position: -webkit-sticky;
   position: sticky;
+  top:0;
 }
-li {
-  float: left;
-}
-li a {
+ul.menubar li {float: left;}
+ul.menubar li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Lucida Bright";
+}
+ul.menubar li a:hover {
+  background-color: #707371;
   font-size: 15pt;
-  font-family: 'Raleway', sans-serif;
-  transition: all 1s;
-  height:30px;
-  padding:14px 16px;
-}
+  }
+ul.menubar li.right {float: right;}
 
-li a:hover {
-  background-color: #395c70;
-  color: white;
-  transform: scale() perspective(10px)
+@media screen and (max-width: 600px) {
+  ul.menubar li.right, 
+  ul.menubar li {float: none;}
+  ul.menubar {position: none;}
+  
 }
+  ul.menubar li.db {float: left; display: none;
+  }
+
 li a:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
