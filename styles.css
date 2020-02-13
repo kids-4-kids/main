@@ -49,7 +49,7 @@ ul.menubar li.right {
     display: none;
   }
 
-ul.menubar li a:active {
+li a:active {
   transform: scale(1);
   transition: 1s;
 }
