@@ -52,6 +52,7 @@ ul.menubar li.right {
 ul.menubar li a:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
+  transition: .5s ease all
 }
 #tip {
   font-family: 'Raleway', sans-serif;
