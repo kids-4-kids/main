@@ -10,12 +10,15 @@ p {
 /* menubar */
 
 ul {
+  top: 0;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #34a8eb;
   width: 100%;
   list-style-type: none;
+  position: -webkit-sticky;
+  position: sticky;
 }
 li {
   float: left;
@@ -67,4 +70,10 @@ li a:active {
 #logo:hover {
   transform: scale(1.1) perspective(10px);
   transition: 1s ease;
+}
+@media screen and (max-width: 600px) {
+  ul li.right, 
+  ul li {float: none;}
+  ul {position: none;}
+  
 }
