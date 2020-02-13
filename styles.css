@@ -30,9 +30,13 @@ ul.menubar li a {
 }
 ul.menubar li a:hover {
   background-color: #707371;
+  transform: scale() perspective(10px);
+  transition: 1s ease all;
   font-size: 15pt;
   }
-ul.menubar li.right {float: right;}
+ul.menubar li.right {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
   ul.menubar li.right, 
@@ -40,10 +44,12 @@ ul.menubar li.right {float: right;}
   ul.menubar {position: none;}
   
 }
-  ul.menubar li.db {float: left; display: none;
+  ul.menubar li.db {
+    float: left;
+    display: none;
   }
 
-li a:active {
+ul.menubar li a:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
 }
