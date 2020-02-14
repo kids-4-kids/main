@@ -1,7 +1,5 @@
 var prgrph = document.getElementsByClassName("para");
-while (true) {
-  check();
-}
+check();
 
 function check() {
   if (prgrph.innerHTML = "") {
