@@ -1,4 +1,4 @@
-var prgrph = document.getElementByClassName("para");
+var prgrph = document.getElementsByClassName("para");
 while (true) {
   check();
 }
