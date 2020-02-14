@@ -5,16 +5,7 @@
       <title>Kids4Kids | ISH</title>
       <link rel="shortcut icon" href="Kids4KidsPics/kids4kids.png">
      <!-- <link rel="stylesheet" href="styles.css"> -->
-    <script>
-      function checkblank() {
-        var blank = document.getElementById("blank");
-        if (blank.getAttribute("id") == "blank") {
-          var para = document.getElementById("isblank");
-          para.innerHTML = "if we have any upcoming events, they will be here!";
-        }
-      }
-      checkblank();
-    </script>
+   
   </head>
   <body id="body" style="margin:0;">
     <ul class="menubar">
@@ -30,4 +21,16 @@
     <br>
     <p id="isblank"></p>
   </body>
+ <script>
+      function checkblank() {
+        var body = document.getElementById("body");
+        body.onload = "checkblank();";
+        var blank = document.getElementById("blank");
+        if (blank.getAttribute("id") == "blank") {
+          var para = document.getElementById("isblank");
+          para.innerHTML = "if we have any upcoming events, they will be here!";
+        }
+      }
+      
+ </script>
 <html>
