@@ -1,12 +1,13 @@
-
-      function checkblank() {
-        var body = document.getElementById("body");
-        body.onload = "checkblank();";
-        var blank = document.getElementById("blank");
-        if (blank.getAttribute("id") == "blank") {
-          var para = document.getElementById("isblank");
+function checkblank() {
+     var para = document.getElementsByTagName("p");
+     if(para.innerHTML == "") {
+          para.id = "isblank";
           para.innerHTML = "if we have any upcoming events, they will be here!";
-        }
-      }
+           
+     }
+     else { 
+          para.id = "_isblank";
+     }
+}
       
  
