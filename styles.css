@@ -59,6 +59,7 @@ li a:active {
 .tip {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
+  font-weight: bold;
 }
 #studentsAtAssembly {
   transform: scale(1); 
