@@ -85,6 +85,6 @@ li a:active {
   ul {position: none;}
   
 }
-#isblank #_isblank {
+#isblank ,#_isblank {
   font-size: 15pt;
 }
