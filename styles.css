@@ -8,7 +8,10 @@ p {
   font-size: 8pt;
 }
 /* menubar */
-
+img {
+  transition: 1s;
+  transform: scale(1);
+}
 ul.menubar {
   list-style-type: none;
   margin: 0;
