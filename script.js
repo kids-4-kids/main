@@ -20,10 +20,11 @@ function mobile() {
 }
 
 
-function nonMobile();
+function nonMobile() {
   var Nobile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
   Nobile.style.display = "block";
   isMobile.style.display = "none";
+}
 
   
