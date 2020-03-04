@@ -13,17 +13,17 @@ else {
 
 
 function mobile() {
-  var Nobile = document.getElementsByClassName("not_mobile");
+  var Nonbile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
-  Nobile.style.display = "none";
+  Nonbile.style.display = "none";
   isMobile.style.display = "block";
 }
 
 
 function nonMobile() {
-  var Nobile = document.getElementsByClassName("not_mobile");
+  var Nonbile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
-  Nobile.style.display = "block";
+  Nonbile.style.display = "block";
   isMobile.style.display = "none";
 }
 
