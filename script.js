@@ -14,18 +14,18 @@ else {
 
 function mobile() {
   
-  var Nonbile = document.getElementsByClassName("not_mobile");
+  var nonBile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
-  Nonbile.style.display = "none";
+  nonBile.style.display = "none";
   isMobile.style.display = "block";
 }
 
 
 function nonMobile() {
   
-  var Nonbile = document.getElementsByClassName("not_mobile");
+  var nonBile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
-  Nonbile.style.display = "block";
+  nonBile.style.display = "block";
   isMobile.style.display = "none";
 }
 
