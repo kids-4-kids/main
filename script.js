@@ -13,6 +13,7 @@ else {
 
 
 function mobile() {
+  
   var Nonbile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
   Nonbile.style.display = "none";
@@ -21,6 +22,7 @@ function mobile() {
 
 
 function nonMobile() {
+  
   var Nonbile = document.getElementsByClassName("not_mobile");
   var isMobile = document.getElementsByClassName("mobile");
   Nonbile.style.display = "block";
