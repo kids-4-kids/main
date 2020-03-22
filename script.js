@@ -1,4 +1,4 @@
-var winSize = window.matchMedia("(max-width: 400px)")
+var winSize = window.matchMedia("max-width: 400px")
 
 if (winSize.matches) {
   
